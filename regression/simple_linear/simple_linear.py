@@ -4,9 +4,9 @@ import matplotlib.pyplot as plt
 
 dataset = pd.read_csv('regression/simple_linear/Salary_Data.csv')
 x = dataset.iloc[:,:-1].values
-print(x)
+#print(x)
 y = dataset.iloc[:,-1].values
-print(y)
+#print(y)
 
 from sklearn.model_selection import train_test_split
 X_train,X_test,Y_train,Y_test = train_test_split(x,y,test_size = 0.2, random_state=1)
