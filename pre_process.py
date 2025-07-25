@@ -52,3 +52,9 @@ print(X_test)
 #| --------- | ------------------ | ----------------------- |
 #| `X_train` | `fit_transform()`  | Learn + scale the data  |
 #| `X_test`  | `transform()` only | Just scale, no learning |
+
+
+#--------------------------------------------------------------------------------
+#SIMPLE LINEAR REGRESSION
+
+
